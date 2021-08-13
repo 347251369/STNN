@@ -1,0 +1,173 @@
+Lorenz dimension 0 with no feature-selected and with free noise:
+python driver.py --dataset lorenz --dy 20 --dim 0 --feature 0 --noise 0.0
+
+
+Lorenz dimension 0 with feature-selected and with free noise:
+python driver.py --dataset lorenz --dy 20 --dim 0 --feature 1 --noise 0.0
+
+
+Lorenz dimension 0 with no feature-selected and with noise:
+python driver.py --dataset lorenz --dy 20 --dim 0 --feature 0 --noise 0.5
+
+
+Lorenz dimension 0 with feature-selected and with noise:
+python driver.py --dataset lorenz --dy 20 --dim 0 --feature 1 --noise 0.5
+
+
+Lorenz dimension 1 with no feature-selected and with free noise:
+python driver.py --dataset lorenz --dy 20 --dim 1 --feature 0 --noise 0.0
+
+
+Lorenz dimension 1 with feature-selected and with free noise:
+python driver.py --dataset lorenz --dy 20 --dim 1 --feature 1 --noise 0.0
+
+
+Lorenz dimension 1 with no feature-selected and with noise:
+python driver.py --dataset lorenz --dy 20 --dim 1 --feature 0 --noise 0.5
+
+Lorenz dimension 1 with feature-selected and with noise:
+python driver.py --dataset lorenz --dy 20 --dim 1 --feature 1 --noise 0.5
+
+
+Lorenz dimension 2 with no feature-selected and with free noise:
+python driver.py --dataset lorenz --dy 20 --dim 2 --feature 0 --noise 0.0
+
+
+Lorenz dimension 2 with feature-selected and with free noise:
+python driver.py --dataset lorenz --dy 20 --dim 2 --feature 1 --noise 0.0
+
+
+Lorenz dimension 2 with no feature-selected and with noise:
+python driver.py --dataset lorenz --dy 20 --dim 2 --feature 0 --noise 0.5
+
+
+
+Lorenz dimension 2 with feature-selected and with noise:
+python driver.py --dataset lorenz --dy 20 --dim 2 --feature 1 --noise 0.5
+
+
+gene dimension 21 with no feature-selected:
+python driver.py --dataset gene --dy 7 --dim 21 --feature 0
+
+
+gene dimension 21 with feature-selected:
+python driver.py --dataset gene --dy 7 --dim 21 --feature 1
+
+
+gene dimension 63 with no feature-selected:
+python driver.py --dataset gene --dy 7 --dim 63 --feature 0
+
+
+gene dimension 63 with feature-selected:
+python driver.py --dataset gene --dy 7 --dim 63 --feature 1
+
+
+gene dimension 73 with no feature-selected:
+python driver.py --dataset gene --dy 7 --dim 73 --feature 0
+
+
+gene dimension 73 with feature-selected:
+python driver.py --dataset gene --dy 7 --dim 73 --feature 1
+
+
+gene dimension 83 with no feature-selected:
+python driver.py --dataset gene --dy 7 --dim 83 --feature 0
+
+
+gene dimension 83 with feature-selected:
+python driver.py --dataset gene --dy 7 --dim 83 --feature 1
+
+
+traffic dimension 12 with no feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 12 --feature 0
+
+
+traffic dimension 12 with feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 12 --feature 1
+
+
+traffic dimension 15 with no feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 15 --feature 0
+
+
+traffic dimension 15 with feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 15 --feature 1
+
+
+traffic dimension 26 with no feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 26 --feature 0
+
+
+traffic dimension 26 with feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 26 --feature 1
+
+
+traffic dimension 39 with no feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 39 --feature 0
+
+
+traffic dimension 39 with feature-selected:
+python driver.py --dataset traffic --dy 20 --dim 39 --feature 1
+
+
+solar dimension 4 with no feature-selected:
+python driver.py --dataset solar --dy 150 --dim 4 --feature 0
+
+
+solar dimension 4 with feature-selected:
+python driver.py --dataset solar --dy 150 --dim 4 --feature 1
+
+
+solar dimension 11 with no feature-selected:
+python driver.py --dataset solar --dy 150 --dim 11 --feature 0
+
+
+solar dimension 11 with feature-selected:
+python driver.py --dataset solar --dy 150 --dim 11 --feature 1
+
+
+sea temperature dimension 1 with no feature-selected:
+python driver.py --dataset ST --dy 20 --dim 1 --feature 0
+
+
+sea temperature dimension 1 with feature-selected:
+python driver.py --dataset ST --dy 20 --dim 1 --feature 1
+
+
+stock dimension 0 with no feature-selected:
+python driver.py --dataset stock --dy 21 --dim 0 --feature 0
+
+
+stock dimension 0 with feature-selected:
+python driver.py --dataset stock --dy 21 --dim 0 --feature 1
+
+
+cardiovas dimension 0 with no feature-selected:
+python driver.py --dataset cardiovas --dy 25 --dim 0 --feature 0
+
+
+cardiovas dimension 0 with feature-selected:
+python driver.py --dataset cardiovas --dy 25 --dim 0 --feature 1
+
+
+plankton dimension 0 with no feature-selected:
+python driver.py --dataset plankton --dy 9 --dim 0 --feature 0
+
+
+plankton dimension 0 with feature-selected:
+python driver.py --dataset plankton --dy 9 --dim 0 --feature 1
+
+
+wind dimension 0 with no feature-selected:
+python driver.py --dataset wind --dy 20 --dim 0 --feature 0
+
+
+wind dimension 0 with feature-selected:
+python driver.py --dataset wind --dy 20 --dim 0 --feature 1
+
+
+typhoon dimension 0 with feature-selected:
+python driver.py --dataset typhoon --dy 20 --dim 0 --feature 1
+
+typhoon dimension 1 with feature-selected:
+python driver.py --dataset typhoon --dy 20 --dim 1 --feature 1
